@@ -1406,11 +1406,17 @@ ul.footer-list li a:hover{
 .home-menu-section{
 	width:100%;
 	position:relative;
-	background: url(https://a-ikra.ru/wp-content/uploads/2016/12/k06.jpg) 50% 0 no-repeat fixed;
+	background: url(../img/menu.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
 	color: white;
 	margin: 0 auto;
 	padding: 120px 0;
+}
+
+.section-white .container .row{
+	margin:0;
+	display: flex;
+  flex-wrap: wrap;
 }
 
 .home-menu-section .image-overlay{
@@ -1421,9 +1427,6 @@ ul.footer-list li a:hover{
 	bottom: 0;
 	right: 0;
 	left: 0;
-}
-
-.menu-wrapper {
 }
 
 .home-menu-list {
@@ -1494,8 +1497,7 @@ p.home-menu-ingredients{
 }
 
 .menu-wrapper {
-	display:inline-block;
-	padding-right:20px;
+	display: flex;
 	margin-bottom:10px;
 }
 
