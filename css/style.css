@@ -1520,8 +1520,9 @@ h2.menu-section-title::after{
 }
 
 .menu-image{
-	float:left;
-	width:20%;
+	width: 20%;
+	display: flex;
+	flex-direction: column;
 }
 
 .menu-image a img{
@@ -1578,7 +1579,8 @@ p.menu-ingredients{
 }
 
 .btn-ens-action.btn-ens-style {
-	align-self: flex-end;
+	margin-top: 5px;
+                            align-self: stretch
 }
 
 /* ========================================================== */
