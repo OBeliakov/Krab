@@ -1950,8 +1950,11 @@ p.contact_success_box{
     font-size: 35px;
     line-height: 43px;
 	}
-}
 
+	#enscart_wrapper {
+    top: 90px!important;
+	}
+}
 
 @media(max-width:375px){
 	span.comic-text {
